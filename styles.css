@@ -11,13 +11,32 @@ colors: #FFFAF7, #DCDDE0, #CEC7D9, #BA8FFA, #60D1A2, #1D0344
 */
 
 @media (max-width: 600px) {
+nav{
+    background-color: #60d1a2;
 
+}
 }
 
 @media only screen and (max-width:850px) {
+nav{
+    background-color: #60d1a2;
+    width:75%;
+}
+.section-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
 
 }
 
 @media only screen and (min-width:851px) {
-
+nav{
+    background-color: #60d1a2;
+}
+.section-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
 }
